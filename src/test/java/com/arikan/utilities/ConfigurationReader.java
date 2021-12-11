@@ -10,7 +10,7 @@ public class ConfigurationReader {
     static Properties properties;
 
     static {
-        String path="C:\\Users\\Lenovo\\IdeaProjects\\seleniumSelbst\\configuration.properties";
+        String path="configuration.properties";
         FileInputStream file= null;
         try {
             file = new FileInputStream(path);
